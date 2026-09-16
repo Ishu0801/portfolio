@@ -214,6 +214,8 @@ section h2{ font-size:clamp(1.6rem,3.4vw,2.2rem); margin-bottom:22px; }
 .endpoint-row:nth-child(4){ transition-delay:.35s; }
 .endpoint-row:nth-child(5){ transition-delay:.45s; }
 .endpoint-row:nth-child(6){ transition-delay:.55s; }
+.endpoint-row:nth-child(7){ transition-delay:.65s; }
+.endpoint-row:nth-child(8){ transition-delay:.75s; }
 .endpoint-row .method{ color:var(--sage); width:44px; flex-shrink:0; }
 .endpoint-row .route{ color:var(--paper); flex:1; min-width:180px; }
 .endpoint-row .status{ color:var(--muted); }
@@ -331,7 +333,7 @@ footer{
 
 <!-- HERO -->
 <header class="hero">
-  <div class="kicker">CS student / Python, FastAPI, and a growing data science habit</div>
+  <div class="kicker">CS student / FastAPI, backend systems, and a growing data science habit</div>
   <h1>I build the parts you never see.</h1>
   <p class="sub">Ishu Kumar — B.Sc. (Hons) Computer Science student at Hansraj College, University of Delhi. I like backend systems and datasets that make sense once you look closely enough.</p>
   <div class="ticker" id="ticker"><span class="path">GET /about</span> → 200 OK</div>
@@ -345,7 +347,7 @@ footer{
     <div class="eyebrow"><span class="n">01</span> / about</div>
     <div class="reveal"><h2>Same person, fewer semicolons than you'd expect.</h2></div>
     <div class="reveal">
-      <p>I'm an aspiring data scientist and quantitative researcher, currently pursuing a <strong>B.Sc. (Hons) in Computer Science</strong> at Hansraj College, University of Delhi — I got in as a CUET topper. Most of my time goes into Python, NumPy, and SQL: building database-backed systems and looking for the story hiding in a dataset.</p>
+      <p>I'm an aspiring data scientist and quantitative researcher, currently pursuing a <strong>B.Sc. (Hons) in Computer Science</strong> at Hansraj College, University of Delhi — I got in as a CUET topper. Most of my time goes into Python and FastAPI: building backend systems with JWT-based authentication, PostgreSQL/MySQL, and Docker, plus a growing habit of digging through datasets for the story hiding in them. I've also worked through 150+ DSA problems on LeetCode to keep the fundamentals sharp.</p>
       <p>Outside of code, I write competitive poetry — I placed <strong>All India Rank 107</strong> in a national poetry competition — and play cricket at the district level. Turns out both pastimes reward the same thing backend work does: patience, and getting the structure right before anything else.</p>
     </div>
   </div>
@@ -359,11 +361,13 @@ footer{
     <div class="reveal"><h2>What happens when you hit the server.</h2></div>
     <div class="endpoint-list reveal">
       <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/python</span><span class="status">200 advanced</span></div>
-      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/cpp-sql</span><span class="status">200 comfortable</span></div>
+      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/fastapi</span><span class="status">200 building REST APIs</span></div>
+      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/databases</span><span class="status">200 postgresql, mysql</span></div>
+      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/auth</span><span class="status">200 jwt-based authentication</span></div>
+      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/docker</span><span class="status">200 containerized deployments</span></div>
+      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/dsa</span><span class="status">200 150+ problems solved, leetcode</span></div>
       <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/data-stack</span><span class="status">200 numpy, pandas, matplotlib</span></div>
-      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/seo</span><span class="status">200 shipped to prod</span></div>
       <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/tooling</span><span class="status">200 git, vs code, jupyter</span></div>
-      <div class="endpoint-row"><span class="method">GET</span><span class="route">/skills/frontend</span><span class="status">206 partial — learning</span></div>
     </div>
   </div>
 </section>
@@ -423,7 +427,15 @@ footer{
     <div class="eyebrow"><span class="n">05</span> / deployed</div>
     <div class="reveal"><h2>Things I've shipped and would defend in a code review.</h2></div>
 
-    <div class="project-list reveal">
+    <!--<div class="project-list reveal">-->
+      <!-- TODO: Replace this card with your actual FastAPI/JWT/Docker project details -->
+      <!--<div class="project">
+        <div class="head"><h3>[Your FastAPI Project Name]</h3><span class="status-light">running</span></div>
+        <div class="route-label">/projects/your-fastapi-project</div>
+        <p>[Describe the project — e.g. a REST API built with FastAPI, secured with JWT authentication, backed by PostgreSQL, and containerized with Docker for deployment.]</p>
+        <div class="tags"><span>FastAPI</span><span>JWT</span><span>PostgreSQL</span><span>Docker</span></div>
+      </div>-->
+
       <div class="project">
         <div class="head"><h3>Tiffin Management System</h3><span class="status-light">running</span></div>
         <div class="route-label">/projects/tiffin-management-system</div>
